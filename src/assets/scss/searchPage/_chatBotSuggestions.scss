@@ -1,0 +1,45 @@
+.chatbot-suggestions {
+  padding: 1rem 0 0;
+  cursor: pointer;
+
+  @media (max-width: 576px) {
+    padding: 0.5rem 0 0;
+  }
+
+  .suggestion-badge {
+    width: max-content;
+    white-space: nowrap;
+    padding: 0.5rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    background-color: $primary;
+    color: #000;
+
+    &:hover {
+      color: #000;
+
+      .icon-container {
+        background-color: #fff;
+        color: #000;
+      }
+    }
+
+    .icon-container {
+      color: #565656;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 0.25rem;
+      background-color: #f6fdfa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease-in;
+    }
+  }
+
+  .swiper-slide {
+    width: max-content;
+  }
+}

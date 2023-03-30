@@ -1,0 +1,129 @@
+.contact-hedsInfo {
+    display: none;
+}
+
+.contactHeadsmall {
+    display: block;
+}
+
+.contact-us {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2E2E2E;
+}
+
+.contacts-para {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify;
+    color: #808080;
+}
+
+.contacts-info {
+    margin-top: 30px;
+}
+
+.contacts-info h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2E2E2E;
+}
+
+.contacts-info p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .contact-hedsInfo {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .contactHeadsmall {
+        display: none;
+    }
+
+    .contact-us {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 64px;
+        /* identical to box height, or 267% */
+
+        font-feature-settings: 'pnum' on, 'lnum' on;
+
+        /* Text/Title */
+
+        color: #2E2E2E;
+        text-align: center;
+    }
+
+    .contacts-para {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        text-align: center;
+
+
+
+    }
+
+    .contacts-info {
+        margin-top: 30px;
+    }
+
+    .contacts-info h2 {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height, or 200% */
+
+        font-feature-settings: 'pnum' on, 'lnum' on;
+
+        /* Text/Title */
+
+        color: #2E2E2E;
+
+    }
+
+    .contacts-info p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        /* identical to box height, or 193% */
+
+
+        /* Text/Body */
+
+        color: #808080;
+
+    }
+
+}

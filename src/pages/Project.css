@@ -1,0 +1,404 @@
+.gellary-back {
+    background: rgba(6, 12, 23, 0.3);
+    background-image: url("../assets/images/gellaryBack.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-back {
+    background: rgba(6, 12, 23, 0.3);
+    background-image: url("../assets/images/contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.team-back {
+    background: rgba(6, 12, 23, 0.3);
+    background-image: url("../assets/images/teams.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-titles {
+    padding-top: 101px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 88px;
+    /* identical to box height, or 183% */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+.other-serchBar {
+    position: relative;
+    top: 110px;
+    left: 46px;
+}
+
+.mains-searchbar {
+    position: relative;
+    top: 110px;
+    /* left: 46px; */
+    width: 98vw;
+    margin: auto;
+    padding-left: 111px;
+}
+
+.page-headers {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+    width: 623px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+.sse-galler {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pro-serchBar {
+    position: relative;
+    left: 400px;
+    bottom: 590px;
+}
+
+.project-back {
+    background: rgba(6, 12, 23, 0.3);
+    background-image: url("../assets/images/projectBack.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card-margin {
+    margin-right: 88px;
+}
+
+.project-cardBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+.projects-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 74px;
+    letter-spacing: 0.464972px;
+    color: #2E2E2E;
+}
+
+.project-infos {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    position: relative;
+    left: 5%;
+    bottom: 80px;
+    width: 23vw;
+    height: 157px;
+    background-color: #FFFFFF;
+    padding: 13px;
+}
+
+.project-infosCard {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    position: relative;
+    left: 7%;
+    bottom: 62px;
+    width: 34vw;
+    height: 123px;
+    background-color: #FFFFFF;
+    padding: 13px;
+}
+
+.infos-ProTilte {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    /* or 146% */
+
+    text-align: center;
+    letter-spacing: 0.464972px;
+
+    /* Headings */
+
+    color: #2E2E2E;
+    width: 224px;
+    margin-top: 30px;
+}
+
+.infos-ProTilteScond {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    letter-spacing: 0.464972px;
+
+    /* Headings */
+
+    color: #2E2E2E;
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 912px) {
+    .project-infos {
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+        border-radius: 30px;
+        position: relative;
+        left: 5%;
+        bottom: 80px;
+        width: 26vw;
+        height: 140px;
+        background-color: #FFFFFF;
+        padding: 13px;
+    }
+
+    .project-infosCard {
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+        border-radius: 30px;
+        position: relative;
+        left: 7%;
+        bottom: 62px;
+        width: 39vw;
+        height: 123px;
+        background-color: #FFFFFF;
+        padding: 13px;
+    }
+
+    .infos-ProTilte {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.464972px;
+        color: #2E2E2E;
+        width: 224px;
+        margin-top: 30px;
+        margin-right: 39px;
+    }
+
+    .infos-ProTilteScond {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: 0.464972px;
+        color: #2E2E2E;
+        margin-top: 18px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .mains-searchbar {
+        position: relative;
+        top: 110px;
+        /* left: 46px; */
+        width: 100vw;
+        /* margin: auto; */
+        /* padding-left: 111px; */
+        /* margin-left: 24px; */
+        margin: 0;
+        /* padding: 15px; */
+        padding-left: 20px;
+    }
+
+    .gellary-back {
+        background: rgba(6, 12, 23, 0.3);
+        background-image: url("../assets/images/gellaryBack.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 150px;
+    }
+
+    .page-titles {
+        padding-top: 96px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 88px;
+        /* identical to box height, or 367% */
+
+
+        /* White */
+
+        color: #FFFFFF;
+
+    }
+
+    .page-headers {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        text-align: center;
+
+        /* White */
+
+        color: #FFFFFF;
+        width: 267px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 200px;
+    }
+
+
+    .sse-galler {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 35px;
+        /* or 146% */
+
+        /* identical to box height, or 133% */
+
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .card-margin {
+        margin-right: 1px;
+    }
+
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .project-cardBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .projects-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 41px;
+        text-align: center;
+        letter-spacing: 0.301582px;
+        color: #2E2E2E;
+    }
+
+    .project-infos {
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+        border-radius: 30px;
+        position: relative;
+        left: 5%;
+        bottom: 44px;
+        width: 75vw;
+        height: 99px;
+        background-color: #FFFFFF;
+        padding: 13px;
+    }
+
+    .infos-ProTilte {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        /* or 135% */
+
+        text-align: center;
+        letter-spacing: 0.251782px;
+
+        /* Headings */
+
+        color: #2E2E2E;
+
+        width: 131px;
+        margin-top: 20px;
+    }
+
+    .project-infosCard {
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+        border-radius: 30px;
+        position: relative;
+        left: 4%;
+        bottom: 44px;
+        width: 84vw;
+        height: 87px;
+        background-color: #FFFFFF;
+        padding: 12px;
+    }
+
+
+    .infos-ProTilteScond {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        /* identical to box height, or 288% */
+
+        letter-spacing: 0.251782px;
+
+        /* Headings */
+
+        color: #2E2E2E;
+        margin-top: 15px;
+    }
+}
